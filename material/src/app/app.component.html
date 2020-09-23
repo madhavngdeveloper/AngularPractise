@@ -1,0 +1,17 @@
+
+<mat-drawer-container class="example-container">
+  <mat-drawer  #sidenav mode="side" opened class ="mat-drawer">
+      <app-side-bar></app-side-bar>
+  </mat-drawer>
+  <mat-drawer-content class="content"> 
+      <mat-toolbar class="toolbar">
+        <button (click)=" sidenav.toggle()" mat-icon-button><i class="material-icons">menu</i></button>
+        <span class="fill"></span>
+        <span class="user-text">welcome user</span>
+        
+        <button mat-button>LogOut</button>
+      </mat-toolbar>
+    <div div class="main-cont"><router-outlet></router-outlet></div>
+  </mat-drawer-content>
+</mat-drawer-container>
+

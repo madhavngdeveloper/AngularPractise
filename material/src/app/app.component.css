@@ -1,0 +1,33 @@
+*{margin:0}
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+}
+.mat-drawer{
+
+width: 250px;
+background:#283747 ;
+border-right: none
+
+}
+.main-cont{
+    padding:25px;
+}
+
+.fill{
+    flex: 1 1 auto;
+    
+}
+
+.content{
+    background: #1B4F72;
+
+    margin-right:20px;
+}
+.toolbar{
+  background:   #AED6F1 
+}
